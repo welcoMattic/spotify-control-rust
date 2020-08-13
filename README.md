@@ -4,7 +4,9 @@
 
 ## Installation
 
-todo
+```
+$ sudo sh -c "curl https://github.com/welcoMattic/spotify-control-rust/releases/download/v0.1.0/spotify-control -o /usr/local/bin/spotify-control && chmod a+x /usr/local/bin/spotify-control"
+```
 
 ## Usage
 
