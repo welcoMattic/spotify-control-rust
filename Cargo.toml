@@ -1,0 +1,18 @@
+[package]
+name = "spotify-control-rust"
+version = "0.1.0"
+authors = ["Mathieu Santostefano <msantostefano@protonmail.com>"]
+description = "Controls Spotify from CLI, retrieve current playing data"
+readme = "README.md"
+repository = "https://github.com/welcomattic/spotify-control-rust"
+keywords = ["Spotify"]
+license = "MIT"
+edition = "2018"
+
+[[bin]]
+name = "spotify-control"
+path = "src/bin/spotify-control.rs"
+
+[dependencies]
+clap = "3.0.0-beta.1"
+mpris = "1.1.2"
