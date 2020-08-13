@@ -2,6 +2,8 @@
 
 > A simple CLI to control Spotify via D-bus
 
+It was tested on Linux to control Spotify, but as it uses mpris crate behind the scenes, it could control any player that implements MPRIS.
+
 ## Installation
 
 ```
