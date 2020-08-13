@@ -5,7 +5,7 @@ use mpris::{PlayerFinder, Metadata};
 
 fn main() {
     let matches: ArgMatches = App::new("spotify-control")
-        .version("0.1")
+        .version("0.1.0")
         .author("Mathieu Santostefano <msantostefano@protonmail.com>")
         .about("Controls Spotify from CLI, retrieve current playing data")
         .subcommand(App::new("play").about("send play command to Spotify"))
