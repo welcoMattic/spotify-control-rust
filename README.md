@@ -7,7 +7,7 @@ It was tested on Linux to control Spotify, but as it uses mpris crate behind the
 ## Installation
 
 ```
-$ sudo sh -c "curl https://github.com/welcoMattic/spotify-control-rust/releases/download/v0.1.0/spotify-control -o /usr/local/bin/spotify-control && chmod a+x /usr/local/bin/spotify-control"
+$ sudo sh -c "curl https://github.com/welcoMattic/spotify-control-rust/releases/download/v0.1.0/spotify-control -L -o /usr/local/bin/spotify-control && chmod a+x /usr/local/bin/spotify-control"
 ```
 
 ## Usage
